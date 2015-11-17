@@ -24,7 +24,7 @@ system and for each website as follows:
 ##### In more details, you need to do the following:
 + Implement bootstrap.js that is added to the target websites
 + Render the button on the right side of the screen
-+ Click oт the button opens dialog. The solution we know is iframe (because of the CSS,
++ Click on the button opens dialog. The solution we know is iframe (because of the CSS,
 JS conflicts and AJAX), but if you have other suggestions, let us know.
 + Implement first and second step with validation that makes sense.
 + Implement web-server exposing API method for submitting the feedback

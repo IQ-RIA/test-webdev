@@ -1,0 +1,47 @@
+body, h1{
+    margin:0;
+    padding: 0;
+}
+.review-button{
+    z-index: 9999;
+    position: fixed;
+    right: -20px;
+    top: 50%;
+    margin-top: -0.625em;
+    transform: rotate(-90deg);
+    display: block;
+}
+.review-button>button {
+    font-size: 22px;
+}
+.site-header{
+    text-align: justify;
+    letter-spacing: 1px;
+    height: 8em;
+    padding: 2em 5%;
+    background: #2c3e50;
+    color: #fff;
+}
+.site-header h1{
+    margin-left: 10px;
+}
+.site-header h1,
+.site-header nav {
+    display: inline-block;
+}
+.site-header a{
+    color: #fff;
+}
+.site-header::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+thead{
+    background-color: #1abc9c;
+    color: #fff;
+}
+.content thead>tr>th{
+    text-align: center;
+    border-bottom-width: 0;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+  <link href="css/style.css" rel="stylesheet" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <script src="js/main.js" crossorigin="anonymous"></script>
+  <script src="vendor/star-rating/star-rating.min.js" crossorigin="anonymous"></script>
+  <link href="vendor/star-rating/star-rating.min.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+<body>
+  <div class="review-button">
+    <button type="button" class="btn btn-primary">Feedback</button>
+  </div>
+  <!-- begin leave-feed -->
+  <div class="leave-feed">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Leave Feedback</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label class="control-label">Please, evaluate this website on the scale from 1 to 5:</label>
+              <div class="stars"></div>
+            </div>
+            <div class="form-group">
+              <label class="control-label">Also, you can let us know what you think:</label>
+              <textarea class="form-control"></textarea>
+            </div>
+            Proceed to the next step to leave you contact information.
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">PROCEED</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end leave-feed -->
+  <!-- begin contact-info -->
+  <div class="contact-info">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Contact info</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <label class="control-label">You can complete as many fields as you wish:</label>
+            <div class="form-group">
+              <label class="control-label">First name:</label>
+              <input type="text" class="form-control" placeholder="John">
+            </div>
+            <div class="form-group">
+              <label class="control-label">Lirst name:</label>
+              <input type="text" class="form-control" placeholder="Doe">
+            </div>
+            <div class="form-group">
+              <label class="control-label">Contact e-mail address:</label>
+              <input type="email" class="form-control" placeholder="johndoe@gmail.com">
+            </div>
+            <div class="form-group">
+              <label class="control-label">Your website:</label>
+              <input type="url" class="form-control" placeholder="http://iqria.com">
+            </div>
+            <div class="form-group">
+              <label class="control-label">Your position:</label>
+              <input type="url" class="form-control" placeholder="Manager">
+            </div>
+            <div class="form-group">
+              <label class="control-label">Put your short bio here:</label>
+              <textarea class="form-control"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">SAVE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end contact-info -->
+  <!-- begin contact-info -->
+  <div class="contact-info">
+    <div class="modal-dialog modal-sm" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Contact info</h4>
+        </div>
+        <div class="modal-body">
+          Your review has been saved! Thank you for your feedback!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary">Ok</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end contact-info -->
+</body>
+</html>

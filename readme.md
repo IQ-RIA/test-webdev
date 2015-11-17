@@ -43,8 +43,7 @@ website
         1: [list of review texts] 
     }
 ```
-HTML/CSS for the frontend will be provided, but feel free to modify it or not use it at all. This is
-just to save you time.  
+HTML/CSS for the frontend is provided in the repo, but feel free to modify it or not use it at all. This is just to save you time.
 ![alt tag](https://raw.github.com/XXimiCC/test-webdev/master/diagram.png)
 
 ##### We’ll evaluate the code from the following perspectives:
